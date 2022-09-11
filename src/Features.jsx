@@ -55,7 +55,7 @@ const Features = () => {
         <div className="flex flex-col nav:flex-row">{sections}</div>
         <hr className="" />
       </div>
-      {carousel}
+      <div className="">{carousel}</div>
     </div>
   );
 };
