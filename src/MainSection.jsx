@@ -3,7 +3,7 @@ import screenImage from "./assets/illustration-hero.svg";
 
 const MainSection = () => {
   return (
-    <section className="flex nav:items-center flex-col nav:flex-row-reverse justify-between text-center sm:text-left text-veryDarkBlue font-rubik nav:flex-auto">
+    <section className="flex nav:items-center flex-col nav:flex-row-reverse justify-between text-center nav:text-left text-veryDarkBlue font-rubik nav:flex-auto">
       <div className="nav:w-1/2">
         <img src={screenImage} alt="" />
         {/* <div className="w-full h-full absolute top-0 translate-x-12">
