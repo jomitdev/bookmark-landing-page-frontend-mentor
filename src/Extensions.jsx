@@ -4,7 +4,7 @@ import Extension from "./Extension";
 
 const Extensions = () => {
   const cards = data.map((extensionData, i) => (
-    <Extension data={extensionData} mg={`${i * 2}rem`} />
+    <Extension key={i} data={extensionData} mg={`${i * 2}rem`} />
   ));
   return (
     <div className="h-full text-center font-rubik">

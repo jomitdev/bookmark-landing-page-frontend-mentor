@@ -5,6 +5,7 @@ import { useState } from "react";
 import Menu from "./Menu";
 import Features from "./Features";
 import Extensions from "./Extensions";
+import Faq from "./Faq";
 
 function App() {
   const [menuClosed, setMenuClosed] = useState(true);
@@ -29,9 +30,14 @@ function App() {
         <Features />
       </div>
       <div
-        className={`w-screen nav:h-full px-8 sm:px-14 md:px-16 lg:px-24 xl:px-48`}
+        className={`w-screen nav:h-full px-8 sm:px-14 md:px-16 lg:px-24 xl:px-48 pb-8 nav:pb-0`}
       >
         <Extensions />
+      </div>
+      <div
+        className={`w-screen nav:h-full px-8 sm:px-14 md:px-16 lg:px-24 xl:px-48 pb-8 nav:pb-0`}
+      >
+        <Faq />
       </div>
     </div>
   );
