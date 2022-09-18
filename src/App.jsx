@@ -6,6 +6,8 @@ import Menu from "./Menu";
 import Features from "./Features";
 import Extensions from "./Extensions";
 import Faq from "./Faq";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
   const [menuClosed, setMenuClosed] = useState(true);
@@ -38,6 +40,10 @@ function App() {
         className={`w-screen nav:h-full px-8 sm:px-14 md:px-16 lg:px-24 xl:px-48 pb-8 nav:pb-0`}
       >
         <Faq />
+      </div>
+      <div className={`w-screen`}>
+        <Contact />
+        <Footer />
       </div>
     </div>
   );

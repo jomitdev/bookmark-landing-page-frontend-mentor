@@ -4,7 +4,6 @@ import faqData from "./faq-data";
 
 const Faq = () => {
   const [data, setData] = useState(faqData);
-  console.log("Fuckalsfasldfj", data);
 
   const toggleQuestion = (i) => {
     setData((prevData) => {

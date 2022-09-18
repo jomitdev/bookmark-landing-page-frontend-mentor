@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.footer-link:hover path {
+  fill: hsl(0, 94%, 66%);
+  transition: all 200ms;
+}

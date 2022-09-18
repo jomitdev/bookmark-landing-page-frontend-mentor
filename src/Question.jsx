@@ -3,7 +3,6 @@ import arrow from "./assets/icon-arrow.svg";
 import arrowRed from "./assets/icon-arrow-opened.svg";
 
 const Question = ({ question, toggleQuestion, opened }) => {
-  console.log(question);
   return (
     <div
       className={`py-4 border-t border-[#e5e7eb] ${

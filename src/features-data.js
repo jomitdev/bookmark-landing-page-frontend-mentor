@@ -4,6 +4,7 @@ import imageTab3 from "./assets/illustration-features-tab-3.svg";
 
 const featuresData = [
   {
+    id: 1,
     image: imageTab1,
     title: "Bookmark in one click",
     headline: "Simple Bookmarking",
@@ -12,6 +13,7 @@ const featuresData = [
     selected: true,
   },
   {
+    id: 2,
     image: imageTab2,
     headline: "Speedy Searching",
     title: "Intelligent search",
@@ -20,6 +22,7 @@ const featuresData = [
     selected: false,
   },
   {
+    id: 3,
     image: imageTab3,
     headline: "Easy Searching",
     title: "Share your bookmarks",

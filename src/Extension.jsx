@@ -3,7 +3,6 @@ import { useMediaQuery } from "react-responsive";
 
 const Extension = ({ data, mg }) => {
   const isNotPhone = useMediaQuery({ query: "(min-width: 860px)" });
-  console.log(isNotPhone);
   const customMargin = isNotPhone
     ? {
         transform: `translateY(${mg})`,
