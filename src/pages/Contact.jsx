@@ -1,7 +1,6 @@
 import React from "react";
 import * as EmailValidator from "email-validator";
 import { useState } from "react";
-import error from "./assets/icon-error.svg";
 
 const Contact = () => {
   const [email, setEmail] = useState("");

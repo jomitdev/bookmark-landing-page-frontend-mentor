@@ -1,6 +1,6 @@
 import React from "react";
-import arrow from "./assets/icon-arrow.svg";
-import arrowRed from "./assets/icon-arrow-opened.svg";
+import arrow from "../../assets/icon-arrow.svg";
+import arrowRed from "../../assets/icon-arrow-opened.svg";
 
 const Question = ({ question, toggleQuestion, opened }) => {
   return (

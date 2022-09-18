@@ -7,10 +7,9 @@ const Features = () => {
   const [featuresData, setFeaturesData] = useState(data);
 
   const sections = featuresData.map((feature, i) => (
-    <div className="w-full">
+    <div className="w-full" key={i}>
       <hr className="nav:hidden" />
       <button
-        key={i}
         className={`text-center text-veryDarkBlue font-medium nav:text-base  text-lg w-full `}
         onClick={() => handleClick(i)}
       >

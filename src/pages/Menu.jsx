@@ -1,8 +1,8 @@
 import React from "react";
-import logoBookmarkDark from "./assets/logo-bookmark-dark.svg";
-import closeIcon from "./assets/icon-close.svg";
-import twitterIcon from "./assets/icon-twitter.svg";
-import facebookIcon from "./assets/icon-facebook.svg";
+import logoBookmarkDark from "../assets/logo-bookmark-dark.svg";
+import closeIcon from "../assets/icon-close.svg";
+import twitterIcon from "../assets/icon-twitter.svg";
+import facebookIcon from "../assets/icon-facebook.svg";
 
 const Menu = ({ menuClosed, toggleMenu, scrollToSection }) => {
   return (
