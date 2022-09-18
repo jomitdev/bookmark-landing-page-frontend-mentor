@@ -1,13 +1,13 @@
 import React from "react";
 import data from "./extensions-data";
-import Extension from "./Extension";
+import Extension from "./components/Extension";
 
 const Extensions = () => {
   const cards = data.map((extensionData, i) => (
     <Extension key={i} data={extensionData} mg={`${i * 2}rem`} />
   ));
   return (
-    <div className="h-full text-center font-rubik">
+    <div className="pricing h-full text-center font-rubik">
       <div className="space-y-6">
         <h2 className="pt-16 text-2xl sm:text-4xl font-medium text-veryDarkBlue">
           Download the extension

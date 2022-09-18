@@ -1,6 +1,6 @@
-import chromeLogo from "./assets/logo-chrome.svg";
-import firefoxLogo from "./assets/logo-firefox.svg";
-import operaLogo from "./assets/logo-opera.svg";
+import chromeLogo from "../assets/logo-chrome.svg";
+import firefoxLogo from "../assets/logo-firefox.svg";
+import operaLogo from "../assets/logo-opera.svg";
 
 const extensionsData = [
   {

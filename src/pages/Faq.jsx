@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Question from "./Question";
+import Question from "./components/Question";
 import faqData from "./faq-data";
 
 const Faq = () => {
@@ -35,7 +35,7 @@ const Faq = () => {
           answered please feel free to email us.
         </p>
       </div>
-      <div className="w-full sm:px-8 md:px-12 lg:px-24 xl:px-96 mx-auto">
+      <div className="w-full sm:px-8 md:px-12 lg:px-24 xl:px-[20%] mx-auto">
         {faqsEls}
       </div>
       <button className="bg-softBlue border-2 border-softBlue px-5 py-3 rounded-md shadow-lg text-[15px] text-white font-medium hover:bg-transparent hover:text-softBlue">

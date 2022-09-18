@@ -1,6 +1,6 @@
-import imageTab1 from "./assets/illustration-features-tab-1.svg";
-import imageTab2 from "./assets/illustration-features-tab-2.svg";
-import imageTab3 from "./assets/illustration-features-tab-3.svg";
+import imageTab1 from "../assets/illustration-features-tab-1.svg";
+import imageTab2 from "../assets/illustration-features-tab-2.svg";
+import imageTab3 from "../assets/illustration-features-tab-3.svg";
 
 const featuresData = [
   {

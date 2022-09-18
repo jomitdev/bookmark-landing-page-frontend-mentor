@@ -17,7 +17,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="font-rubik bg-softBlue text-white text-center py-12 px-6">
+    <div className="contact font-rubik bg-softBlue text-white text-center py-12 px-6">
       <p className="tracking-[0.3rem] text-sm mb-4">35,000+ ALREADY JOINED</p>
       <h1 className="text-2xl font-medium tracking-wide mb-6">
         Stay up-to-date with what we’re doing
@@ -29,7 +29,7 @@ const Contact = () => {
         <div className="relative">
           <input
             type="text"
-            className={`p-3 rounded-md outline-none border-2 border-white h-auto text-black w-full sm:w-80 ${
+            className={`p-3 z-[-1] rounded-md outline-none border-2 border-white h-auto text-black w-full sm:w-80 ${
               !emailValid
                 ? "border-softRed bg-[url('./assets/icon-error.svg')] bg-no-repeat bg-[center_right_1rem] rounded-b-none"
                 : ""

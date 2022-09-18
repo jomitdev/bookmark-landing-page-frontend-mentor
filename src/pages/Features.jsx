@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Feature from "./Feature";
+import Feature from "./components/Feature";
 import data from "./features-data";
 
 const Features = () => {
@@ -40,7 +40,7 @@ const Features = () => {
     <Feature key={i} data={feature} />
   ));
   return (
-    <div className="font-rubik py-4 space-y-10">
+    <div className="features font-rubik py-4 space-y-10">
       <div className="text-center space-y-6">
         <h2 className="text-3xl font-medium sm:text-4xl lg:text-5xl text-veryDarkBlue">
           Features

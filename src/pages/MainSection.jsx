@@ -1,7 +1,7 @@
 import React from "react";
-import screenImage from "./assets/illustration-hero.svg";
+import screenImage from "../assets/illustration-hero.svg";
 
-const MainSection = () => {
+const MainSection = ({ scrollToSection }) => {
   return (
     <section className="flex nav:items-center flex-col nav:flex-row-reverse justify-between text-center nav:text-left text-veryDarkBlue font-rubik nav:flex-auto">
       <div className="nav:w-1/2">
